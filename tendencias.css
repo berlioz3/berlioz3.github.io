@@ -1,0 +1,245 @@
+.body{
+
+}
+
+.Figuro{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 300px;
+    height: 400px;
+    margin: 2%;
+
+}
+
+.img{
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    grid-area: img;
+}
+
+.Figuro::after{
+    content: "TENDENCIAS EN LAS CRIPTOMONEDAS:";
+    grid-area: img;
+    width: 200%;
+    height: 100%;
+    background-color: rgba(65, 51, 52, 0.66);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.Figuro:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.Figura{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 600px;
+    height: 400px;
+    margin: 0px;
+}
+.imga{
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    grid-area: img;
+}
+.Figura::after{
+    content: "1. Mayor adopción: Se espera que la adopción de las criptomonedas siga creciendo en los próximos años. A medida que más personas, empresas e instituciones financieras se familiaricen con las criptomonedas y comprendan su valor potencial, es probable que veamos un aumento en la adopción generalizada";
+    grid-area: img;
+    width: 200%;
+    height: 100%;
+    background-color: rgba(22, 21, 21, 0.534);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.Figura:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.Figure{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 600px;
+    height: 400px;
+    margin: 0px;
+}
+.imge{
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    grid-area: img;
+}
+.Figure::after{
+    content: "2. Mayor regulación: A medida que las criptomonedas continúan ganando popularidad, los gobiernos y los organismos reguladores están trabajando en la implementación de marcos regulatorios claros. La regulación adicional puede ayudar a eliminar la incertidumbre y promover una mayor participación institucional en el mercado de las criptomonedas";
+    grid-area: img;
+    width: 200%;
+    height: 100%;
+    background-color: rgba(73, 16, 99, 0.445);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.Figure:hover::after{
+    clip-path: circle(150% at top right);
+}
+.Figuri{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 600px;
+    height: 400px;
+    margin: 0px;
+}
+.imgi{
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    grid-area: img;
+}
+.Figuri::after{
+    content: "3. Desarrollo de monedas digitales de bancos centrales (CBDC): Varios países están explorando la idea de emitir sus propias monedas digitales respaldadas por los bancos centrales. Estas CBDC podrían tener un impacto significativo en el panorama de las criptomonedas y podrían cambiar la forma en que se utilizan las transacciones digitales";
+    grid-area: img;
+    width: 200%;
+    height: 100%;
+    background-color: rgba(10, 84, 102, 0.425);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.Figuri:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.Figuru{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 600px;
+    height: 400px;
+    margin: 0px;
+}
+.imgu{
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    grid-area: img;
+}
+.Figuru::after{
+    content: "4. Integración en sistemas financieros tradicionales: A medida que las criptomonedas ganan legitimidad y se establecen como una clase de activos reconocida, es probable que veamos una mayor integración entre los sistemas financieros tradicionales y los criptoactivos. Esto podría incluir la aparición de servicios bancarios y de inversión que permitan a los usuarios acceder y gestionar sus criptomonedas de manera más fácil";
+    grid-area: img;
+    width: 200%;
+    height: 100%;
+    background-color: rgba(18, 7, 85, 0.589);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.Figuru:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.Figur{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 300px;
+    height: 400px;
+    margin: 0px;
+}
+
+.imag{
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    grid-area: img;
+}
+
+.Figur::after{
+    content: "5. Mejoras en la escalabilidad y la eficiencia: La escalabilidad y la eficiencia son desafíos importantes para muchas criptomonedas en la actualidad. Sin embargo, se espera que se realicen avances significativos en la tecnología subyacente, como la implementación de soluciones de escalado y mejoras en los algoritmos de consenso, lo que podría permitir un procesamiento de transacciones más rápido y menos costoso";
+    grid-area: img;
+    width: 200%;
+    height: 100%;
+    background-color: rgba(57, 131, 201, 0.075);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.Figur:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.Figu{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 600px;
+    height: 400px;
+    margin: 0px;
+}
+.imeg{
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    grid-area: img;
+}
+.Figu::after{
+    content: "6. Desarrollo de aplicaciones descentralizadas (dApps): Las criptomonedas y la tecnología blockchain están impulsando la creación de aplicaciones descentralizadas en diversas industrias, como las finanzas, la atención médica, el comercio electrónico y los juegos. Se espera que el desarrollo de dApps continúe en auge, lo que podría tener un impacto significativo en la forma en que interactuamos con los servicios y productos digitales.";
+    grid-area: img;
+    width: 200%;
+    height: 100%;
+    background-color: rgba(10, 84, 102, 0.425);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.Figu:hover::after{
+    clip-path: circle(150% at top right);
+}
